@@ -58,6 +58,10 @@
 #poster .card{
     border-radius: 30px;
 }
+#poster .card:hover{
+    box-shadow: 8px 8px 8px  gray;
+    transform:scale(1.01);
+}
 
 .card .card-img-top{
     border-radius: 30px;
@@ -68,4 +72,25 @@
     border: none;
     color: grey;
     font-size: 30px;
+}
+
+#carouselButton {
+    right: 20px;
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: rgb(255, 59, 59);
+    font-size: 15px;
+    color: white;
+}
+#carouselButton2 {
+    right: 20px;
+    position: absolute;
+    bottom: 20px;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: rgb(255, 59, 59);
+    font-size: 15px;
+    color: white;
 }
