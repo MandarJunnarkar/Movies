@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner{
+        height: 160px;
+    }
+  }
+
+#propic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-brand span{
+    color: rgb(255, 59, 59);
+}
+
+#nav-list h6{
+    font-weight: lighter;
+}
+
+.active i{
+    color: rgb(255, 59, 59);
+}
+
+#side-nav .nav-link{
+    border-left: 3px solid transparent;
+}
+#side-nav .nav-link:hover{
+    border-left: 3px solid rgb(255, 59, 59);
+}
+#side-nav .active{
+    border-left: 3px solid rgb(255, 59, 59);
+}
+
+#sidebar{
+    border-right: 0.5px solid black;
+    z-index: 10;
+    position: relative;
+}
+
+#poster .card{
+    border-radius: 30px;
+}
+
+.card .card-img-top{
+    border-radius: 30px;
+}
