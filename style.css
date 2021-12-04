@@ -7,6 +7,12 @@
     .carousel-inner{
         height: 160px;
     }
+    #sidebar{
+        position: absolute !important;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+    }
   }
 
 #propic{
@@ -46,7 +52,6 @@
 
 #sidebar{
     border-right: 0.5px solid black;
-    z-index: 10;
     position: relative;
 }
 
@@ -56,4 +61,11 @@
 
 .card .card-img-top{
     border-radius: 30px;
+}
+
+.close {
+    background-color: white;
+    border: none;
+    color: grey;
+    font-size: 30px;
 }
